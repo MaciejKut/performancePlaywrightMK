@@ -1,0 +1,2 @@
+/script.bi-instatag.com/
+/launch-601c20fcc3df.min.js

@@ -1,0 +1,16 @@
+{
+  "name": "performance-testing",
+  "version": "1.0.0",
+  "description": "A script to measure website performance with Playwright",
+  "main": "performanceTest.js",
+  "scripts": {
+    "test": "node performanceTest.js"
+  },
+  "author": "Maciej Kutzmann",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.30.0",
+    "exceljs": "^4.3.0",
+    "csv-parse": "^5.3.0"
+  }
+}
