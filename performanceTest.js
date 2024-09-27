@@ -1,3 +1,10 @@
+/**
+ * Copyright (c) [2024] Maciej Kutzmann
+ * 
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
+
 const { chromium, devices } = require('playwright');
 const fs = require('fs');
 const { parse } = require('csv-parse');

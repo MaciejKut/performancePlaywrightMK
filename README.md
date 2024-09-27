@@ -21,3 +21,18 @@ This project was developed by Maciej Kutzmann.
 
    ```bash
    git clone https://github.com/MaciejKut/performancePlaywrightMK.git
+
+
+- install dependencies npm install
+- install playwright dependencies   npx playwright install
+
+Provide comma spearated list of URLs to pages.csv
+https://example.com,https://anotherexample.com
+
+Prepare the blocklist.txt file with a list of scripts (one per line) to be blocked.
+Example 
+/script.name.com/
+/launch-601c2xxxdf.min.js
+
+
+run the script node performanceTest.js
